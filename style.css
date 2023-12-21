@@ -1,0 +1,96 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #b9eeff;
+    margin: 0;
+}
+header {
+    text-align: center;
+}
+.avatar {
+    height: 300px;
+    width: 300px;
+    border-radius: 6px;
+}
+.title__main {
+    font-size: 24px;
+}
+.title__subtitle {
+    font-size: 18px;
+    color: rgb(38, 32, 71);
+}
+main {
+    border: 2px solid #2a2a2a;
+    border-bottom: 0;
+    padding: 12px;
+    text-align: center;
+}
+
+.skills__ol li{
+    list-style: none;
+}
+
+.gallery {
+    display: block;
+}
+
+.gallery__img {
+    width: 300px;
+    height: 600px;
+    max-width: 600px;
+}
+
+.separator {
+    width: 100%;
+    height: 5px;
+}
+
+.video iframe {
+    width: 300px;
+    height: 400px;
+    max-width: 600px;
+}
+.education__table {
+    margin:0 auto;
+    border-collapse: collapse;
+    width: 100%;
+}
+.education__table th,
+.education__table td {
+    padding: 16px;
+    border: 1px solid black;
+
+}
+.quote {
+    font-weight: 500;
+    font-size: 32px;
+}
+.form {
+    width: 100%;
+    display: block;
+    margin:0 auto;
+}
+.form__input {
+    width: 100%;
+}
+.textarea {
+    margin-top: 14px;
+    width: 90%;
+}
+.form__submit {
+    display: block;
+    margin: 0 auto;
+    height: 30px;
+    width: 120px;
+}
+.footer {
+    width: 100%;
+    height: 120px;
+    background-color: #b9eeff;
+}
+.contracts {
+    text-align: center;
+}
+.contacts__link {
+    color: #2a2a2a;
+    font-weight: 700;
+}
